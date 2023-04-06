@@ -6,6 +6,10 @@ public abstract class Personaggio {
     private boolean votato;
     private boolean potereUsato;
 
+    private Fazione fazione;
+
+    enum Fazione{BUONO,CATTIVO}
+
     public abstract void potereNotturno();
 
 }
