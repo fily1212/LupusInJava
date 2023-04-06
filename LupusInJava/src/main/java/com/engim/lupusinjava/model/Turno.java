@@ -1,6 +1,10 @@
 package com.engim.lupusinjava.model;
 
 public class Turno {
+    public Turno() {
+        this.fase = Fase.GIORNO;
+        this.num = 1;
+    }
 
     enum Fase{GIORNO,NOTTE}
     Fase fase;
